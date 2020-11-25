@@ -16,4 +16,4 @@ rfm9x = adafruit_rfm9x.RFM9x(spi, CS, RESET, RADIO_FREQ_MHZ, baudrate=1000000)
 
 
 
-print(rfm9x._read_u8(_RH_RF95_REG_00_FIFO))
+print(rfm9x._read_u8(adafruit_rfm9x._RH_RF95_REG_00_FIFO))
